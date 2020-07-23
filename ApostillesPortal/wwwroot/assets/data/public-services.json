@@ -1,0 +1,378 @@
+[
+	{
+		"id": 1,
+		"type": "adm_usl",
+		"keyword": "AP_sredno",
+		"applicationType": "schoolEducation",
+		"language": "bg",
+		"name": "APOSTILLE на документи за предучилищно, училищно и професионално образование и обучение",
+		"status": 0,
+		"links": [
+			{
+				"id": 1,
+				"serviceId": 1,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Описание на услугата",
+				"fileUri": "adm_usl/AP_Sredno_opisanie_2017.pdf",
+				"status": 0
+			},
+			{
+				"id": 2,
+				"serviceId": 1,
+				"description": "",
+				"ordinal": 2,
+				"name": "Заявление – обр. 1",
+				"fileUri": "adm_usl/AP_Sredno_zayavlenie_obr_1_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 3,
+				"serviceId": 1,
+				"description": "",
+				"ordinal": 3,
+				"name": "Протокол за приемане на устно заявление – обр. 1а",
+				"fileUri": "adm_usl/AP_Sredno_protokol_obr_1a_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 4,
+				"serviceId": 1,
+				"description": "",
+				"ordinal": 4,
+				"name": "Заявление за възстановяване на внесена сума – обр. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6-GDPR.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 2,
+		"type": "adm_usl",
+		"keyword": "AP_visshe",
+		"applicationType": "higherEducation",
+		"language": "bg",
+		"name": "APOSTILLE на документи от висши училища и научни организации",
+		"status": 0,
+		"links": [
+			{
+				"id": 5,
+				"serviceId": 2,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Описание на услугата",
+				"fileUri": "adm_usl/AP_VO_opisanie_2017.pdf",
+				"status": 0
+			},
+			{
+				"id": 6,
+				"serviceId": 2,
+				"description": "",
+				"ordinal": 2,
+				"name": "Заявление – обр. 2",
+				"fileUri": "adm_usl/AP_VO_zayavlenie_obr_2_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 7,
+				"serviceId": 2,
+				"description": "",
+				"ordinal": 3,
+				"name": "Протокол за приемане на устно заявление – обр. 2а",
+				"fileUri": "adm_usl/AP_VO_protokol_obr_2a_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 8,
+				"serviceId": 2,
+				"description": "",
+				"ordinal": 4,
+				"name": "Заявление за възстановяване на внесена сума – обр. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6-GDPR.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 3,
+		"type": "adm_usl",
+		"keyword": "AP_prof_qual",
+		"applicationType": "professionalQualification",
+		"language": "bg",
+		"name": "APOSTILLE на удостоверение за професионална квалификация по нерегулирана професия",
+		"status": 0,
+		"links": [
+			{
+				"id": 9,
+				"serviceId": 3,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Описание на услугата",
+				"fileUri": "adm_usl/AP_VKAU_opisanie.pdf",
+				"status": 0
+			},
+			{
+				"id": 10,
+				"serviceId": 3,
+				"description": "",
+				"ordinal": 2,
+				"name": "Заявление – обр. 4",
+				"fileUri": "adm_usl/AP_VKAU_zayavlenie_obr_4_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 11,
+				"serviceId": 3,
+				"description": "",
+				"ordinal": 3,
+				"name": "Протокол за приемане на устно заявление – обр. 4а",
+				"fileUri": "adm_usl/AP_VKAU_protokol_obr_4a_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 12,
+				"serviceId": 3,
+				"description": "",
+				"ordinal": 4,
+				"name": "Заявление за възстановяване на внесена сума – обр. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6-GDPR.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 4,
+		"type": "adm_usl",
+		"keyword": "AP_OKS",
+		"applicationType": "rightsOfGraduates",
+		"language": "bg",
+		"name": "APOSTILLE на удостоверение за ползване правата на образователно-квалификационна степен",
+		"status": 0,
+		"links": [
+			{
+				"id": 13,
+				"serviceId": 4,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Описание на услугата",
+				"fileUri": "adm_usl/AP_KAU_MON_opisanie.pdf",
+				"status": 0
+			},
+			{
+				"id": 14,
+				"serviceId": 4,
+				"description": "",
+				"ordinal": 2,
+				"name": "Заявление – обр. 5",
+				"fileUri": "adm_usl/AP_KAU_MON_zayavlenie_obr_5_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 15,
+				"serviceId": 4,
+				"description": "",
+				"ordinal": 3,
+				"name": "Протокол за приемане на устно заявление – обр. 5а",
+				"fileUri": "adm_usl/AP_KAU_MON_protokol_obr_5a_2018-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 16,
+				"serviceId": 4,
+				"description": "",
+				"ordinal": 4,
+				"name": "Заявление за възстановяване на внесена сума – обр. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6-GDPR.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 34,
+		"type": "adm_usl",
+		"keyword": "AP_sredno",
+		"applicationType": "schoolEducation",
+		"language": "en",
+		"name": "APOSTILLE for school education",
+		"status": 0,
+		"links": [
+			{
+				"id": 86,
+				"serviceId": 34,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Description of the service",
+				"fileUri": "adm_usl/AP_Sredno_opisanie_01.02.2017_EN.pdf",
+				"status": 0
+			},
+			{
+				"id": 87,
+				"serviceId": 34,
+				"description": "",
+				"ordinal": 2,
+				"name": "Application form No. 1",
+				"fileUri": "adm_usl/AP_Sredno_zayavlenie_obr_1_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 88,
+				"serviceId": 34,
+				"description": "",
+				"ordinal": 3,
+				"name": "Protocol for acceptance of verbal application No. 1а",
+				"fileUri": "adm_usl/AP_Sredno_protokol_obr_1a_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 89,
+				"serviceId": 34,
+				"description": "",
+				"ordinal": 4,
+				"name": "Application for reimbursement of paid amount No. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6_EN.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 35,
+		"type": "adm_usl",
+		"keyword": "AP_visshe",
+		"applicationType": "higherEducation",
+		"language": "en",
+		"name": "APOSTILLE for higher education",
+		"status": 0,
+		"links": [
+			{
+				"id": 90,
+				"serviceId": 35,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Description of the service",
+				"fileUri": "adm_usl/AP_VO_opisanie_2017_EN.pdf",
+				"status": 0
+			},
+			{
+				"id": 91,
+				"serviceId": 35,
+				"description": "",
+				"ordinal": 2,
+				"name": "Application form No. 2",
+				"fileUri": "adm_usl/AP_VO_zayavlenie_obr_2_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 92,
+				"serviceId": 35,
+				"description": "",
+				"ordinal": 3,
+				"name": "Protocol for acceptance of verbal application No. 2а",
+				"fileUri": "adm_usl/AP_VO_protokol_obr_2a_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 93,
+				"serviceId": 35,
+				"description": "",
+				"ordinal": 4,
+				"name": "Application for reimbursement of paid amount No. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6_EN.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 36,
+		"type": "adm_usl",
+		"keyword": "AP_prof_qual",
+		"applicationType": "professionalQualification",
+		"language": "en",
+		"name": "APOSTILLE for professional qualification in an unregulated profession",
+		"status": 0,
+		"links": [
+			{
+				"id": 94,
+				"serviceId": 36,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Description of the service",
+				"fileUri": "adm_usl/AP_VKAU_opisanie_EN.pdf",
+				"status": 0
+			},
+			{
+				"id": 95,
+				"serviceId": 36,
+				"description": "",
+				"ordinal": 2,
+				"name": "Application form No. 4",
+				"fileUri": "adm_usl/AP_VKAU_zayavlenie_obr_4_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 96,
+				"serviceId": 36,
+				"description": "",
+				"ordinal": 3,
+				"name": "Protocol for acceptance of verbal application No. 4а",
+				"fileUri": "adm_usl/AP_VKAU_protokol_obr_4a_2018-GDPR_EN.doc",
+				"status": 0
+			},
+			{
+				"id": 97,
+				"serviceId": 36,
+				"description": "",
+				"ordinal": 4,
+				"name": "Application for reimbursement of paid amount No. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6_EN.doc",
+				"status": 0
+			}
+		]
+	},
+	{
+		"id": 37,
+		"type": "adm_usl",
+		"keyword": "AP_OKS",
+		"applicationType": "rightsOfGraduates",
+		"language": "en",
+		"name": "APOSTILLE for rights of graduates of educational and qualification degrees",
+		"status": 0,
+		"links": [
+			{
+				"id": 98,
+				"serviceId": 37,
+				"description": "opisanie",
+				"ordinal": 1,
+				"name": "Description of the service",
+				"fileUri": "adm_usl/AP_KAU_MON_opisanie_EN.pdf",
+				"status": 0
+			},
+			{
+				"id": 99,
+				"serviceId": 37,
+				"description": "",
+				"ordinal": 2,
+				"name": "Application form No. 5",
+				"fileUri": "adm_usl/AP_KAU_MON_zayavlenie_obr_5_2018_EN-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 100,
+				"serviceId": 37,
+				"description": "",
+				"ordinal": 3,
+				"name": "Protocol for acceptance of verbal application No. 5а",
+				"fileUri": "adm_usl/AP_KAU_MON_protokol_obr_5a_2018_EN-GDPR.doc",
+				"status": 0
+			},
+			{
+				"id": 101,
+				"serviceId": 37,
+				"description": "",
+				"ordinal": 4,
+				"name": "Application for reimbursement of paid amount No. 6",
+				"fileUri": "adm_usl/AP_Zayavlenie_obr_6_EN.doc",
+				"status": 0
+			}
+		]
+	}
+]

@@ -1,0 +1,147 @@
+	* {
+		box-sizing: border-box;
+		font-family: 'Times New Roman';
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		-webkit-print-color-adjust: exact;
+		/* padding: 0 100px;
+		padding-top: 20px; */
+		/* padding: 40px 100px; */
+		padding: 13px;
+		padding-bottom: 0;
+	}
+
+	hr {
+		border: 0;
+		border-top: 2px solid black;
+		/* width: 80%; */
+		/* clear: both; */
+		margin: 10px;
+	}
+
+	.container1 {
+		position: relative;
+		border: 1.5px solid black;
+	}
+
+	.coats-of-arms {
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: -1;
+		opacity: 0.13;
+	}
+
+	.row {
+		border-bottom: 1px solid black;
+	}
+
+	.title-row {
+		text-align: center;
+	}
+
+	/* 26/16 */
+
+	h1 {
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+	h1+div {
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	h2 {
+		font-weight: bold;
+		font-size: 19px;
+	}
+
+	h2+div {
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.cell {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.test-padding {
+		padding: 8px;
+	}
+
+	.hanging-indent {
+		margin-left: 15px;
+		text-indent: -15px;
+	}
+
+	.second-row-fix {
+		margin-left: 16px;
+	}
+
+	.second-row-fix-double {
+		margin-left: 27px;
+	}
+
+	/* my original 18 - 14 */
+
+	.number {
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.label {
+		font-size: 16px;
+		margin-top: 4px;
+	}
+
+	.label-alt {
+		font-size: 16px;
+	}
+
+	.value {
+		font-size: 16px;
+	}
+
+	.value-alt {
+		font-size: 16px;
+	}
+
+	.right-separator {
+		border-right: 1px solid black;
+	}
+
+	.left-separator {
+		border-left: 1px solid black;
+	}
+
+	.container2 {
+		border: 1.5px solid black;
+		margin-top: 10px;
+		padding: 5px;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.qrCode {
+		width: 120px;
+		height: 120px;
+		float: right;
+		border: 1px solid pink;
+	}
+
+	.signatureImg {
+		width: 180px;
+		height: 120px;
+		/* float: right; */
+	}
+
+	.container2 p {
+		margin-bottom: 8px;
+	}

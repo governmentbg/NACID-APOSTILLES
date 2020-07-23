@@ -1,0 +1,8 @@
+{
+    "FormattingOptions": {
+
+            "NewLinesForBracesInAnonymousTypes": false,
+            "NewLinesForBracesInObjectCollectionArrayInitializers": false,
+            "NewLinesForBracesInLambdaExpressionBody": false
+    }
+}

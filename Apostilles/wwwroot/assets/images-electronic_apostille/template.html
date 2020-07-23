@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- Use some dev server for development of css and images. They must be hosted! -->
+		<meta charset="UTF-8" />
+		<link rel="stylesheet"
+					type="text/css"
+					href="{{filesPath}}template.css">
+	</head>
+
+	<body>
+
+		<div class="container1">
+			<!-- There is no opacity on background-image property. That's why it is made that way. -->
+			<!-- <img class="coats-of-arms" src="data:image/png;base64,{{coatsOfArms}}"> -->
+			<img class="coats-of-arms"
+					 src="{{filesPath}}BgCoatsOfArms.png">
+			<div class="row title-row"
+					 style="padding: 10px;">
+				<h1>APOSTILLE</h1>
+				<div>(Convention de La Haye du 5 octobre 1961)</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<div>
+						<span class="number">1.</span>
+						<span class="label">Държава:</span>
+					</div>
+					<div class="label-alt second-row-fix">Country:</div>
+				</div>
+				<div class="cell test-padding">
+					<div class="value">Република България</div>
+					<div class="value-alt">Republic of Bulgaria</div>
+				</div>
+			</div>
+
+			<div class="row title-row"
+					 style="padding: 8px;">
+				<h2>Този публичен акт</h2>
+				<div>This public document</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<div>
+						<span class="number">2.</span>
+						<span class="label">е подписан от</span>
+					</div>
+					<div class="label-alt second-row-fix">has been signed by</div>
+				</div>
+				<div class="cell test-padding">
+					<div class="value">{{personName}}</div>
+					<div class="value-alt">{{personNameAlt}}</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<div>
+						<span class="number">3.</span>
+						<span class="label">в качеството му на</span>
+					</div>
+					<div class="label-alt second-row-fix">acting in the capacity of</div>
+				</div>
+				<div class="cell test-padding">
+					<div class="value">{{position}}</div>
+					<div class="value-alt">{{positionAlt}}</div>
+				</div>
+			</div>
+
+			<div class="row test-padding">
+				<div class="hanging-indent">
+					<span class="number">4.</span>
+					<span class="label">и е поставен печат/марка от {{issuedBy}}</span>
+				</div>
+				<div class="label-alt second-row-fix">bears the seal/stamp of {{issuedByAlt}}</div>
+			</div>
+			<!-- <div class="value second-row-fix">{{issuedBy}}</div>
+			<div class="value-alt second-row-fix">{{issuedByAlt}}</div> -->
+
+			<div class="row title-row"
+					 style="padding: 9px;">
+				<h2>Заверен</h2>
+				<div>Certified</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<span class="number">5.</span>
+					<span class="label">в София - България/аt Sofia - Bulgaria</span>
+					<!-- <span class="label-alt">аt Sofia - Bulgaria</span> -->
+				</div>
+				<div class="cell test-padding">
+					<span class="number">6.</span>
+					<span class="label">на/on</span>
+					<!-- <span class="label-alt">on</span> -->
+					<span class="value">{{issueDate}}</span>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<div>
+						<span class="number">7.</span>
+						<span class="label">от</span>
+					</div>
+					<div class="label-alt second-row-fix">by</div>
+				</div>
+				<div class="cell test-padding">
+					<div class="value">Национален център за информация и документация</div>
+					<div class="value-alt">National Centre for Information and Documentation</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell right-separator test-padding">
+					<span class="number">8.</span>
+					<span class="label">№/No</span>
+					<!-- <span class="label-alt">No</span> -->
+				</div>
+				<div class="cell test-padding">
+					<div class="value">{{number}}</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell"
+						 style="padding-top: 8px; padding-left: 8px;">
+					<div>
+						<span class="number">9.</span>
+						<span class="label">Печат:</span>
+					</div>
+					<div class="label-alt second-row-fix">Seal/stamp:</div>
+				</div>
+				<!-- right-separator -->
+				<div class="cell right-separator"
+						 style="padding-right: 8px; padding-top: 8px;">
+					<!-- <img src="data:image/png;base64,{{stamp}}" style="width: 130px; height: 130px;" alt=""> -->
+					<img src="{{filesPath}}StampNacid.png"
+							 style="width: 130px; height: 130px;"
+							 alt="">
+				</div>
+				<!-- left-separator -->
+				<div class="cell test-padding"
+						 style="width: 520px;">
+					<div style="display: flex;">
+						<div>
+							<span class="number">10.</span>
+							<span class="label">Подпис/Signature:</span>
+							<img style="width: 150px; height: 100px; display: block"
+									 src="data:image/png;base64,{{signerSignature}}">
+						</div>
+						<div style="margin-left: 50px;">
+							<div style="font-size: 16px;">Електронно подписан от\</div>
+							<div style="font-size: 16px;">Digitally signed by:</div>
+							<div style="font-weight: bold;  margin-top: 5px;">{{signerName}}</div>
+							<div style="font-weight: bold;">{{signerPosition}}</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="container2">
+			<div>
+				<img class="qrCode"
+						 src="data:image/png;base64,{{embeddedImage}}">
+				<p>
+					Този Apostille удостоверява само истинността на подписа, качеството, в което е действало лицето, подписало
+					документа, и при
+					необходимост автентичността на печата или марката, поставени върху документа.
+				</p>
+				<p>
+					Този Apostille не удостоверява съдържанието на документа, за който е издаден.
+				</p>
+				<p>
+					За да проверите издаването на този Apostille, вижте
+					<a href="https://www.apostille.bg">www.apostille.bg</a>
+				</p>
+				<p>
+					Идентификатор за проверка на Apostille
+					<strong>ID: {{accessCode}}</strong>
+				</p>
+				<p style="margin-bottom: 0;">
+					Документът е електронно подписан съгласно Закона за електронния документ и електронните удостоверителни услуги
+					(в сила от
+					10.04.2001 г.).
+				</p>
+			</div>
+			<hr>
+			<div>
+				<p>
+					This Apostille only certifies the authenticity of the signature and the capacity of the person who has signed
+					the public
+					document, and, where appropriate, the identity of the seal or stamp which the public document bears.
+				</p>
+				<p>
+					This Apostille does not certify the content of the document for which it was issued.
+				</p>
+				<p>
+					To verify the issuance of this Apostille, see
+					<a href="https://www.apostille.bg">www.apostille.bg</a>
+				</p>
+				<p>
+					Verification of the Apostille
+					<strong>ID: {{accessCode}}</strong>
+				</p>
+				<p>
+					The document has been electronically signed according to Electronic Document and Electronic Trust Services Act
+					(in force
+					from 2001 of April 10th)
+				</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>
